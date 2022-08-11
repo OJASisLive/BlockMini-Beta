@@ -1,0 +1,10 @@
+name: BlockMini
+version: '${project.version}'
+main: me.ojasislive.blockmini.BlockMini
+api-version: 1.19
+prefix: BlockMini
+load: STARTUP
+loadbefore: [ WorldGuard ]
+depend: [ WorldEdit, WorldGuard ]
+authors: [ OJASisLive ]
+description: A blockdrop minigame plugin
